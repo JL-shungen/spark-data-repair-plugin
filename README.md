@@ -10,6 +10,7 @@ Clean and consistent data is one of major interests for downstream analytics;
 clean data makes machine learning and BI reporting more accurate and
 consistent data with constraints (e.g., functional dependences) is important for efficient query plans.
 Therefore, data repairing is a first step for a reliable analytics pipeline.
+这是一个实验原型，用于在 Apache Spark 上构建统计模型以修复表格数据错误，Apache Spark 是用于大规模数据处理的并行分布式框架。干净和一致的数据是下游分析的主要兴趣之一；干净的数据使机器学习和 BI 报告更准确和一致的数据与约束（例如，功能依赖）对于高效的查询计划很重要。因此，数据修复是可靠分析管道的第一步。
 
 ## How to Repair Error Cells
 
